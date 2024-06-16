@@ -91,13 +91,12 @@ section {
 /* Media Queries */
 @media (max-width: 768px) {
   nav {
-    flex-direction: column;
-    position: relative;
+    padding: 10px 5px; /* Adjust padding for smaller screens */
   }
 
   nav a {
-    display: block;
-    margin: 10px 0;
+    margin: 0 10px; /* Reduce margin for smaller screens */
+    font-size: 0.9em; /* Slightly reduce font size */
   }
 
   .slider-container {
@@ -120,8 +119,8 @@ section {
 
 @media (max-width: 480px) {
   nav a {
-    padding: 8px;
-    font-size: 0.9em;
+    margin: 0 5px; /* Further reduce margin for very small screens */
+    font-size: 0.8em; /* Further reduce font size */
   }
 
   .slider-container {
